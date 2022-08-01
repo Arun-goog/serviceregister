@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Service Register</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  
+</head>
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <div class="title"><span>Login </span></div>
+
+      <form action="/files/dominant.html" onsubmit="return submitSignin()"  name="form" id="login">
+        <div class="row">
+          <i class="fas fa-user"></i>
+          <input type="text"id="userNamedata" class="input100" placeholder="user id" required><br>
+        </div>
+        <div class="row">
+          <i class="fas fa-lock"></i>
+          <input type="password" id="passworddata"  class="input100"  placeholder="password" required><br>
+        </div>
+        <div class="pass"><a href="home.html">Forgot password?</a></div>
+        <div class="row button">
+          <input type="submit" value="login">
+        </div>  
+      </form>
+    </div>
+  </div>
+
+ <script src="script.js"></script>
+  
+</body>
+</html>
