@@ -1,0 +1,11 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.searchbox{
+    float: right;
+}
+#success_message{ display: none;}
